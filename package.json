@@ -1,7 +1,7 @@
 {
   "name": "qr-project",
   "version": "1.0.0",
-  "description": "API to generate QR codes",
+  "description": "Web App to generate QR codes",
   "keywords": [
     "QR"
   ],
@@ -9,12 +9,8 @@
   "author": "Nitin Arya",
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prod": "node index.js"
-  },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "qrcode": "^1.5.4"
   }

@@ -1,11 +1,11 @@
 # Use a lightweight official Node.js image
-FROM node:alpine
+FROM node
 
 # Set the working directory inside the container
 WORKDIR /app
 
 # Copy package.json (and package-lock.json if you have one)
-COPY package*.json ./
+COPY package.json ./
 
 # Install the dependencies inside the container
 RUN npm install
@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # The command to start the server
-CMD ["npm", "run", "prod"]
+CMD ["node", "index.js"]

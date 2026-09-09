@@ -1,0 +1,94 @@
+ body {
+     font-family: system-ui, -apple-system, sans-serif;
+     background-color: #f4f4f9;
+     display: flex;
+     justify-content: center;
+     padding: 2rem;
+     color: #333;
+ }
+
+ .container {
+     background: white;
+     padding: 2rem;
+     border-radius: 12px;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     max-width: 400px;
+     width: 100%;
+ }
+
+ h1 {
+     text-align: center;
+     margin-top: 0;
+ }
+
+ .form-group {
+     margin-bottom: 1rem;
+ }
+
+ label {
+     display: block;
+     margin-bottom: 0.5rem;
+     font-weight: 600;
+     font-size: 0.9rem;
+ }
+
+ input[type="text"],
+ input[type="number"],
+ select {
+     width: 100%;
+     padding: 0.5rem;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+     box-sizing: border-box;
+ }
+
+ input[type="color"] {
+     width: 100%;
+     height: 40px;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+     cursor: pointer;
+ }
+
+ button {
+     width: 100%;
+     padding: 0.75rem;
+     background-color: #0066cc;
+     color: white;
+     border: none;
+     border-radius: 6px;
+     font-size: 1rem;
+     font-weight: bold;
+     cursor: pointer;
+     margin-top: 1rem;
+ }
+
+ button:hover {
+     background-color: #0052a3;
+ }
+
+ /* Specific styles for the download button */
+ .btn-download {
+     background-color: #28a745;
+     margin-top: 1rem;
+ }
+
+ .btn-download:hover {
+     background-color: #218838;
+ }
+
+ .result-container {
+     margin-top: 2rem;
+     text-align: center;
+     display: none;
+     /* Hidden until generated */
+ }
+
+ #qrImage {
+     max-width: 100%;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     padding: 10px;
+     background-color: #ffffff;
+     /* Ensures the border looks good */
+ }

@@ -1,3 +1,7 @@
 node_modules
-Dockerfile
+dockerfile
 .dockerignore
+package-lock.json
+.gitignore
+README.md
+.prettierignore
