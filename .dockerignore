@@ -5,3 +5,4 @@ package-lock.json
 .gitignore
 README.md
 .prettierignore
+.git
