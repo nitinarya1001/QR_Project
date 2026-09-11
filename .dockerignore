@@ -6,3 +6,4 @@ package-lock.json
 README.md
 .prettierignore
 .git
+qrProjectDeploy.sh
